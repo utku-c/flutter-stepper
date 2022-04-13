@@ -1,16 +1,19 @@
-# dynamicmodel_caching_stepper
+# Dynamicmodel Stepper
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Adım adım pencere öğesi, bir dizi adım boyunca ilerlemeyi görüntüler. Stepper genellikle çevrimiçi formları doldurmak için kullanılır
+- Adım adım doldurulacak formlar için kullanılabilir.
 
-A few resources to get you started if this is your first Flutter project:
+###
+*   onStepContinue(button continue ): 
+Devam düğmesine tıkladığımızda bir sonraki adıma geçiyoruz, bu da onStepContinue özelliğimizin çalıştığı anlamına geliyor.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+*   onStepCancel(button cancel):
+İptal butonuna tıkladığımızda bir önceki adıma dönüyoruz bu da onStepCancel özelliğimizin çalıştığı anlamına geliyor.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*   onStepTapped:
+Belirli bir adıma dokunduğumuzda, doğrudan o belirli adıma gideriz, bu da onStepTapped özelliğimizin çalıştığı anlamına gelir.
+
